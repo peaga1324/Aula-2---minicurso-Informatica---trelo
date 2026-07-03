@@ -1,7 +1,7 @@
 # Calculadora de salário
 # ESTE CÓDIGO POSSUI VÁRIOS ERROS INTENCIONAIS
 
-print("=== Cálculo de Salário ==="
+print("=== Cálculo de Salário ===")
 
 nome = input("Digite seu nome: ")
 idade = int(input("Digite sua idade: ")
@@ -9,11 +9,11 @@ idade = int(input("Digite sua idade: ")
 horas = float(input("Horas trabalhadas: "))
 valor_hora = float(input("Valor por hora: "))
 
-salario = horas * valorHora
+salario = horas * valor_hora
 
-bonus = salario * 0,10
+bonus = salario * 0.10
 
-salario_final = salario + bonu
+salario_final = salario + bonus
 
 print("")
 
@@ -22,7 +22,7 @@ print("Idade:", idade)
 
 print("Salário:", salario)
 print("Bônus:", bonus)
-print("Salário Final:", salarioFinal)
+print("Salário Final:", salario_final)
 
 desconto = input("Digite o valor do desconto: ")
 
